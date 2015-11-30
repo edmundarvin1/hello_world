@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href= "{{ url_for('static',filename='style.css') }}">
+        <tittle>Flask Hello World</tittle>
+        <meta name = 'viewport' content='device-width,initial-scale= 1.0'>
+    </head>
+    <body>
+        <h1>WADDUP WORLD!!</h1>
+        {% block content %}
+        {% endblock %}
+    </body>
+    
+</html>
